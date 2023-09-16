@@ -21,7 +21,7 @@
   <body>
     <!-- -----------------------------------------------------------------------------   -->
     <div class="my-navbar">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-secondary">
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#">Edward</a> -->
           <!-- <a class="navbar-brand" href="#">
@@ -45,7 +45,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Портфолио</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -55,105 +55,122 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Контакты
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Telegram</a></li>
+                  <li><a class="dropdown-item" href="#">WhatsApp</a></li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">E-mail</a>
                   </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
+    <!-- -----------------------------------------------------------------------------   -->
+
+
+    <div class="container about-me">
+      <h1 class="display-1">Edward</h1>
+      <h3 >
+        Привет! Меня зовут Эдуард. Я - Fullstack разработчик, и я готов помочь Вашему бизнесу войти в мир цифровых технологий.
+      </h3>
+    </div>
 
     <div class="my-main">
       <div class="container">
         <div class="row">
           <div class="col-6">
+            <div class="container left-side">
 
-            
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Front-end developer
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample"
                   >
-                    Front-end developer
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>HTML, CSS, Bootstrap</strong>
-                    Все технологии фронтенда.                    
+                    <div class="accordion-body">
+                      <strong>HTML, CSS, Bootstrap.</strong>
+                      Все технологии фронтенда.                    
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Backend
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>Node.js, Express.js, TypeSript, PostgeSQL </strong>
+                      Почти вся логика и архитектура приложения, его "движок".
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Soft-skills
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>Умение взаимодействовать с другими людьми.</strong>
+                      Главные навыки для работы в команде.
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Backend
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>Node.js, Express.js, TypeSript, PostgeSQL </strong>
-                    Почти вся логика и архитектура приложения, его "движок".
-                  </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./img/i-world.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Уникальное предложение</h5>
+                  <p class="card-text">Только до 01.01.2024 создание портала для Вашего бизнеса по докризисным ценам!  Услуги Web-дизайнера бонусом. </p>
+                  <a href="#" class="btn btn-primary bg-success">Поехали!</a>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    Soft-skills
-                  </button>
-                </h2>
-                <div
-                  id="collapseThree"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>Умение взаимодействовать с другими людьми.</strong>
-                    Главные навыки для работы в команде.
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
 
@@ -203,11 +220,10 @@
                         alt="..."
                       />
                       <div class="carousel-caption d-none d-md-block">
-                        <h2>В гармонии с собой</h2>
-                        <h3>
-                          Гармония — это когда то, что хочешь, совпадает с тем,
-                          что можешь.
-                        </h3>
+                        <h4>В гармонии с собой</h4>
+                        <h6>
+                          Самое замечательное — что жизнь всегда дает второй шанс!
+                        </h6>
                       </div>
                     </div>
                     <div class="carousel-item">
@@ -217,11 +233,10 @@
                         alt="..."
                       />
                       <div class="carousel-caption d-none d-md-block">
-                        <h2>В гармонии с собой</h2>
-                        <h3>
-                          Гармония — это когда то, что хочешь, совпадает с тем,
-                          что можешь.
-                        </h3>
+                        <h4>В гармонии с собой</h4>
+                        <h6>
+                          Жизнь – это моменты, когда захватывает дух.
+                        </h6>
                       </div>
                     </div>
                     <div class="carousel-item">
@@ -231,11 +246,10 @@
                         alt="..."
                       />
                       <div class="carousel-caption d-none d-md-block">
-                        <h2>В гармонии с собой</h2>
-                        <h3>
-                          Гармония — это когда то, что хочешь, совпадает с тем,
-                          что можешь.
-                        </h3>
+                        <h4>В гармонии с собой</h4>
+                        <h6>
+                          Живут лишь те, кто творит добро.
+                        </h6>
                       </div>
                     </div>
                     <div class="carousel-item">
@@ -245,11 +259,10 @@
                         alt="..."
                       />
                       <div class="carousel-caption d-none d-md-block">
-                        <h2>В гармонии с собой</h2>
-                        <h3>
-                          Гармония — это когда то, что хочешь, совпадает с тем,
-                          что можешь.
-                        </h3>
+                        <h4>В гармонии с собой</h4>
+                        <h6>
+                          Никогда не делает ошибок в жизни только тот, кто не пробует ничего нового.
+                        </h6>
                       </div>
                     </div>
                     <div class="carousel-item">
@@ -259,11 +272,10 @@
                         alt="..."
                       />
                       <div class="carousel-caption d-none d-md-block">
-                        <h2>В гармонии с собой</h2>
-                        <h3>
-                          Гармония — это когда то, что хочешь, совпадает с тем,
-                          что можешь.
-                        </h3>
+                        <h4>В гармонии с собой</h4>
+                        <h6>
+                          Если есть цель, то вся ваша жизнь ведет вас к ней
+                        </h6>
                       </div>
                     </div>
                   </div>
@@ -302,6 +314,57 @@
     </div>
 
     <!-- ----------------------------------------------------------------------------- -->
+    <div class="my-navbar bottom">
+      <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Edward</a> -->
+          <!-- <a class="navbar-brand" href="#">
+          <img src="./img/ed-logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Edward
+        </a> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Портфолио</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Контакты
+                </a>
+                <ul class="nav-bottom dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Telegram</a></li>
+                  <li><a class="dropdown-item" href="#">WhatsApp</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">E-mail</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
     <!-- ----------------------------------------------------------------------------- -->
     <!-- ----------------------------------------------------------------------------- -->
     <!-- ----------------------------------------------------------------------------- -->
