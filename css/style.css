@@ -1,6 +1,4 @@
 body{
-  /* background: #e7e7e7; */
-  /* background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg'); */
   background-image: url('../img/bg.JPG');
   height: 100vh
 }
@@ -9,50 +7,17 @@ body{
   flex-direction: column;
 }
 
-/* .my-carousel{
-  max-height: 500px;
-  max-width: 500px;
-} */
-
-
-.carousel-item{
-  /* display: flex; */
-  /* max-height: 500px;
-  max-width: 500px; */
-}
-
-.carousel-item img{
-  /* object-fit: scale-down; */
-}
-
 .my-carousel{
   align-self: flex-end;
 }
 
 .container .left-side{
-  /* border: 1px solid red; */
-  /* margin: 20px; */
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   gap: 10px;
-  
 }
 
 .about-me{
   gap: 30px;
-  /* font-weight: 700; */
   color: rgb(2, 150, 155);
-}
-
-.nav-bottom.dropdown-menu{
-  right: 0;
-  left: auto;
-  top:auto;
-  bottom: 2.5rem;
-
-}
-
-.my-navbar.bottom{
-  margin-top: 1rem;
 }
