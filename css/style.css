@@ -1,0 +1,24 @@
+
+.my-main .container{
+  flex-direction: column;
+}
+
+/* .my-carousel{
+  max-height: 500px;
+  max-width: 500px;
+} */
+
+
+.carousel-item{
+  /* display: flex; */
+  /* max-height: 500px;
+  max-width: 500px; */
+}
+
+.carousel-item img{
+  /* object-fit: scale-down; */
+}
+
+.my-carousel{
+  align-self: flex-end;
+}
